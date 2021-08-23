@@ -1,0 +1,38 @@
+body {
+	margin:0;
+	background: #ddd;
+}
+
+.contenedor {
+	display: flex;
+	justifly-content: center;
+}
+
+.caja {
+	margin: 150px 15px;
+	width: 150px;
+	height: 150px;
+	background: crimson;
+	color: $fff;
+	font-size: 40px;
+	text-aglin: center;
+	line-height: 150px;
+	transition: all 2s;
+dis
+}
+
+.caja:nth-chils(1) {
+	background: purple;
+	transform: translate(50 px, 50 px);
+	/*transform: rotate(50deg, 50grad, 1turn);
+	transform: scaleX(2, 2);
+	transform: skewX(20deg);
+	transform: rotate(-50deg) translateY(50px);
+	transform: matrix(a, b, c, d, e, f);
+	transform-origin: top center;*/
+}
+
+.caja:nth-child(1):hover {
+	transform: rotate(2.5turn);
+	transform: rotate(-50deg) translateY(50px);
+}
