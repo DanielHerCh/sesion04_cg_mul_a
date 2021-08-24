@@ -8,61 +8,82 @@ body {
 	justifly-content: center;
 }
 
-.cuadrado {
+.caja {
+	margin: 150px 15px;
 	width: 150px;
 	height: 150px;
-	border: 5px solid #555;
-	background: black;
-	color-size: 40px;
+	background: crimson;
+	color: $fff;
+	font-size: 40px;
+	text-aglin: center;
+	line-height: 150px;
+	transition: all 2s;
+dis
 }
 
-.triangulo {
-	width: 0;
-	height: 0;
-	border-top: 50px solid #555;
-	border-left: 50px solid #555;
-	border-bottom: 50px solid #555;
-	background: crimson;
-	color-size: 40px;
+.hoja {
+	margin: 150px 15px;
+	width: 250;
+	height: 100;
+	-moz-border-radius: 0 50% / 0 100%;
+	-webkit-border-radius: 0 50% / 0 100%;
+	border-radius: 0 50% / 0 100%;
+	background: black;
+	border: 3px solid #555;
+dis
 }
 
 .circulo {
+	margin: 150px 15px;
 	width: 100px;
 	height: 100px;
-	-moz-border-radius: 60%;
-	-webkit-border-radius: 60%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: yellow;
+dis
+}
+
+.oval{
+	margin: 150px 15px;
+	width: 250px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
 	border-radius: 50%;
 	background: #5cb85c;
-	color-size: 40px;
+dis
 }
 
-.oval-half-red {
-	width: 150px;
-	height: 50px;
-	-moz-border-radius: 0 60% / 0 100%;
-	-webkit-border-radius: 0 60% / 0 100%;
-	border-radius: 0 50% / 0 100%;
-	background: blue;
-	border: 3px solid #555;
-}
-
-.cuadrado:nth-chils(1) {
-
-}
-
-.cuadrado:nth-chils(1):hover {
+.caja:nth-chils(1){
 	transform: translate(50 px, 50 px);
 }
 
-.triangulo:nth-chils(1):hover {
+.hoja:nth-chils(1){
+	transform: translate(50 px, 50 px);
+}
+
+.circulo:nth-chils(1){
+	transform: translate(50 px, 50 px);
+}
+
+.oval:nth-chils(1){
+	transform: translate(50 px, 50 px);
+}
+
+.caja:nth-chils(1):hover {
+	transform: rotate(2.5turn);
+}
+
+.hoja:nth-chils(2):hover {
 	transform: scaleX(2, 2);
 }
 
-.circulo:nth-chils(1):hover {
+.circulo:nth-chils(3):hover {
 	transform: translate(50 px, 50 px);
 }
 
-.oval-half-red:nth-chils(1):hover {
+.oval:nth-chils(4):hover {
 	transform: skewX(20deg);
 }
 	
